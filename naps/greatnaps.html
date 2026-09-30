@@ -41,7 +41,7 @@ footer{background:#020811;border-top:1px solid #94731f;padding:22px;text-align:c
 </div>
 <div class="carousel" aria-label="Calendar month preview">
 <div class="carousel-top"><span>2027 Calendar Preview</span><span class="monthname" id="month-label">January</span></div>
-<div class="slideframe"><img id="calendar-slide" src="January%20-%20Cabinet%20Meeting.png" alt="January 2027 Great Patriotic Naps calendar page: Cabinet Meeting" fetchpriority="high"></div>
+<div class="slideframe"><img id="calendar-slide" src="greatnaps-cover.svg" alt="Great Patriotic Naps 2027 calendar cover featuring the February Board of Peace image" fetchpriority="high"></div>
 <div class="carousel-controls"><button class="arrow" id="prev" aria-label="Previous month">‹</button><button class="arrow" id="next" aria-label="Next month">›</button></div>
 <div class="carousel-bottom"><div class="dots" id="dots" aria-label="Choose a month"></div><button class="pause" id="pause" type="button" aria-pressed="false">Pause slideshow</button></div>
 </div>
@@ -57,18 +57,19 @@ footer{background:#020811;border-top:1px solid #94731f;padding:22px;text-align:c
 <script>
 (() => {
   const months = [
-    ["January","January - Cabinet Meeting"],
-    ["February","February - Board of Peace"],
-    ["March","March - Safe Task Force Roundtable"],
-    ["April","April - Health Affordability Event"],
-    ["May","May - Maternal Healthcare Event"],
-    ["June","June - Farmers Event"],
-    ["July","July - Correpsondents Dinner"],
-    ["August","August - Childhoosd Vaccine Meeting"],
-    ["September","September - Steel and Lake Ontario"],
-    ["October","October - Antifa Summit"],
-    ["November","November - Drug Prices Meeting"],
-    ["December","December - Farm Aid"]
+    ["Cover","greatnaps-cover","svg"],
+    ["January","January - Cabinet Meeting","png"],
+    ["February","February - Board of Peace","png"],
+    ["March","March - Safe Task Force Roundtable","png"],
+    ["April","April - Health Affordability Event","png"],
+    ["May","May - Maternal Healthcare Event","png"],
+    ["June","June - Farmers Event","png"],
+    ["July","July - Correpsondents Dinner","png"],
+    ["August","August - Childhoosd Vaccine Meeting","png"],
+    ["September","September - Steel and Lake Ontario","png"],
+    ["October","October - Antifa Summit","png"],
+    ["November","November - Drug Prices Meeting","png"],
+    ["December","December - Farm Aid","png"]
   ];
   const image = document.getElementById("calendar-slide");
   const monthLabel = document.getElementById("month-label");
@@ -88,11 +89,11 @@ footer{background:#020811;border-top:1px solid #94731f;padding:22px;text-align:c
   let requestId = 0;
   function show(i) {
     index = (i + months.length) % months.length;
-    const [month, file] = months[index];
-    const alt = month + " 2027 Great Patriotic Naps calendar page: " + file.split(" - ")[1];
+    const [month, file, extension] = months[index];
+    const alt = month === "Cover" ? "Great Patriotic Naps 2027 calendar cover featuring the February Board of Peace image." : month + " 2027 Great Patriotic Naps calendar page: " + file.split(" - ")[1];
     const thisRequest = ++requestId;
     const nextImage = new Image();
-    nextImage.src = encodeURI(file + ".png");
+    nextImage.src = encodeURI(file + "." + extension);
     const displayWhenReady = () => {
       if (thisRequest !== requestId) return;
       image.src = nextImage.src;
