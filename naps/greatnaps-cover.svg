@@ -1,38 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536" role="img" aria-labelledby="title desc">
-<title id="title">Great Patriotic Naps 2027 calendar cover draft</title>
-<desc id="desc">A formal navy, red, white, and gold calendar cover featuring the February Board of Peace photograph.</desc>
+<title id="title">Great Patriotic Naps 2027 calendar cover</title>
+<desc id="desc">A formal navy, red, white, and gold calendar cover featuring the February Board of Peace nap photograph.</desc>
 <defs>
   <clipPath id="photo-crop"><rect x="58" y="436" width="908" height="514" rx="3"/></clipPath>
   <linearGradient id="navy-glow" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0b2141"/><stop offset=".58" stop-color="#06142b"/><stop offset="1" stop-color="#030915"/></linearGradient>
   <linearGradient id="gold" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffe78b"/><stop offset="1" stop-color="#d69b25"/></linearGradient>
 </defs>
 <rect width="1024" height="1536" fill="url(#navy-glow)"/>
-<rect x="0" y="0" width="341.3" height="16" fill="#c8102e"/>
-<rect x="341.3" y="0" width="341.4" height="16" fill="#fff5d7"/>
-<rect x="682.7" y="0" width="341.3" height="16" fill="#214f83"/>
+<rect x="0" y="0" width="341.3" height="16" fill="#c8102e"/><rect x="341.3" y="0" width="341.4" height="16" fill="#fff5d7"/><rect x="682.7" y="0" width="341.3" height="16" fill="#214f83"/>
 <text x="512" y="91" text-anchor="middle" fill="#f6d778" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="4">ONE TRUE INFOTAINMENT PRESENTS</text>
-<g fill="url(#gold)">
-  <path d="M254 133l7 15 17 2-12 11 3 17-15-8-15 8 3-17-12-11 17-2z"/>
-  <path d="M770 133l7 15 17 2-12 11 3 17-15-8-15 8 3-17-12-11 17-2z"/>
-</g>
-<rect x="806" y="103" width="146" height="65" rx="8" fill="#c8102e" stroke="#ffd34e" stroke-width="2"/>
-<text x="879" y="131" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="900" letter-spacing="2">2027</text>
-<text x="879" y="151" text-anchor="middle" fill="#ffd34e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="800" letter-spacing="1.3">KEEPSAKE EDITION</text>
-<text x="512" y="245" text-anchor="middle" fill="#fff" font-family="Georgia,'Times New Roman',serif" font-size="70" font-weight="700" letter-spacing="-2">GREAT PATRIOTIC</text>
-<text x="512" y="354" text-anchor="middle" fill="url(#gold)" font-family="Georgia,'Times New Roman',serif" font-size="112" font-weight="700" letter-spacing="2">NAPS</text>
+<g fill="url(#gold)"><path d="M254 133l7 15 17 2-12 11 3 17-15-8-15 8 3-17-12-11 17-2z"/><path d="M770 133l7 15 17 2-12 11 3 17-15-8-15 8 3-17-12-11 17-2z"/></g>
+<rect x="806" y="103" width="146" height="65" rx="8" fill="#c8102e" stroke="#ffd34e" stroke-width="2"/><text x="879" y="131" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="900" letter-spacing="2">2027</text><text x="879" y="151" text-anchor="middle" fill="#ffd34e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="800" letter-spacing="1.3">KEEPSAKE EDITION</text>
+<text x="512" y="245" text-anchor="middle" fill="#fff" font-family="Georgia,'Times New Roman',serif" font-size="70" font-weight="700" letter-spacing="-2">GREAT PATRIOTIC</text><text x="512" y="354" text-anchor="middle" fill="url(#gold)" font-family="Georgia,'Times New Roman',serif" font-size="112" font-weight="700" letter-spacing="2">NAPS</text>
 <rect x="50" y="428" width="924" height="530" rx="10" fill="none" stroke="#ffd34e" stroke-width="5"/>
-<g clip-path="url(#photo-crop)">
-  <image href="February%20-%20Board%20of%20Peace.png" x="3.6" y="183.4" width="994.8" height="1492.4"/>
-</g>
+<g clip-path="url(#photo-crop)"><image href="https://raw.githubusercontent.com/doremusheller/idonatry/main/naps/February%20-%20Board%20of%20Peace.png" x="3.6" y="183.4" width="994.8" height="1492.4" preserveAspectRatio="xMidYMid slice"/></g>
 <rect x="50" y="428" width="924" height="530" rx="10" fill="none" stroke="url(#gold)" stroke-width="5"/>
-<rect x="50" y="1004" width="924" height="110" rx="4" fill="#c8102e" stroke="#ffd34e" stroke-width="3"/>
-<text x="512" y="1073" text-anchor="middle" fill="#ffe27a" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="900" letter-spacing="3">RESTED. READY. AMERICA FIRST.</text>
-<text x="512" y="1190" text-anchor="middle" fill="#fff5d7" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" letter-spacing="4">TWELVE MONTHS • ONE GREAT YEAR</text>
-<text x="512" y="1320" text-anchor="middle" fill="url(#gold)" font-family="Georgia,'Times New Roman',serif" font-size="116" font-weight="700" letter-spacing="8">2027</text>
-<line x1="314" y1="1370" x2="710" y2="1370" stroke="#d6ae48" stroke-width="2"/>
-<text x="512" y="1432" text-anchor="middle" fill="#e7e0cb" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4">THE COMMEMORATIVE CALENDAR</text>
-<g fill="#ffd34e">
-  <path d="M228 1421l5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7 11-1z"/>
-  <path d="M796 1421l5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7 11-1z"/>
-</g>
+<rect x="50" y="1004" width="924" height="110" rx="4" fill="#c8102e" stroke="#ffd34e" stroke-width="3"/><text x="512" y="1073" text-anchor="middle" fill="#ffe27a" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="900" letter-spacing="3">RESTED. READY. AMERICA FIRST.</text>
+<text x="512" y="1190" text-anchor="middle" fill="#fff5d7" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" letter-spacing="4">TWELVE MONTHS • ONE GREAT YEAR</text><text x="512" y="1320" text-anchor="middle" fill="url(#gold)" font-family="Georgia,'Times New Roman',serif" font-size="116" font-weight="700" letter-spacing="8">2027</text><line x1="314" y1="1370" x2="710" y2="1370" stroke="#d6ae48" stroke-width="2"/><text x="512" y="1432" text-anchor="middle" fill="#e7e0cb" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4">THE COMMEMORATIVE CALENDAR</text>
+<g fill="#ffd34e"><path d="M228 1421l5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7 11-1z"/><path d="M796 1421l5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7 11-1z"/></g>
 </svg>
