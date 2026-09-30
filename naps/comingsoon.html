@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coming Soon — Great Patriotic Naps 2027 Calendar</title>
+<meta name="description" content="The Great Patriotic Naps 2027 calendar will be available in the coming days. Request availability and ordering information.">
+<style>
+:root{--navy:#06142b;--navy2:#0b2141;--red:#c8102e;--red2:#8e0820;--gold:#ffd34e;--cream:#fff5d7;--ink:#101b2c}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#18365d,var(--navy) 65%);color:var(--cream);font-family:Arial,Helvetica,sans-serif}
+.topline{background:linear-gradient(90deg,var(--red2),var(--red),var(--red2));border-bottom:2px solid var(--gold);text-align:center;padding:10px 12px;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900;color:#fff}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:16px;max-width:1040px;margin:auto;padding:18px 22px}.brand{font:900 1.05rem Georgia,serif;letter-spacing:.04em;text-transform:uppercase;color:var(--gold);text-decoration:none}.nav small{font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#d8e1ef}
+main{width:min(820px,calc(100% - 32px));margin:32px auto 70px}.card{border:2px solid var(--gold);background:linear-gradient(145deg,rgba(11,33,65,.98),rgba(7,16,35,.98));padding:clamp(24px,5vw,52px);box-shadow:0 22px 54px #0009}
+.kicker{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;font-weight:900;color:var(--gold)}
+h1{font:900 clamp(2.5rem,7vw,5.1rem)/.9 Georgia,serif;letter-spacing:-.05em;text-transform:uppercase;margin:14px 0;color:white;text-shadow:0 4px 0 var(--red2)}
+.lead{font-size:1.15rem;line-height:1.55;color:#fff4d8;margin:20px 0 12px}
+.reply{font-weight:900;color:var(--gold);line-height:1.5;margin:0 0 26px}
+form{display:grid;gap:18px}.field{display:grid;gap:7px}.field label{font-weight:900;text-transform:uppercase;letter-spacing:.07em;font-size:.82rem;color:#fff}
+input,textarea{width:100%;border:1px solid #8c9db7;background:#fff;color:var(--ink);padding:13px 14px;font:inherit;border-radius:0}
+input:focus,textarea:focus{outline:3px solid var(--gold);outline-offset:2px}textarea{min-height:120px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.button{justify-self:start;border:2px solid #ffe883;background:linear-gradient(#ffe986,#e4a927 52%,#a86000);color:#211500;text-decoration:none;text-transform:uppercase;letter-spacing:.06em;font-weight:1000;padding:15px 22px;box-shadow:0 6px 0 #6f0719,0 14px 25px #0008;cursor:pointer;font-size:.95rem}.button:hover{filter:brightness(1.08)}
+.note{font-size:.82rem;line-height:1.5;color:#c8d2df;margin:0}
+.status{min-height:1.5em;color:var(--gold);font-weight:800}
+footer{background:#020811;border-top:1px solid #94731f;padding:22px;text-align:center;color:#bac5d3;font-size:.78rem}
+@media(max-width:600px){.nav{padding:14px}.nav small{font-size:.62rem;text-align:right}.row{grid-template-columns:1fr}.button{width:100%}main{margin-top:18px}}
+</style>
+</head>
+<body>
+<div class="topline">One True Infotainment Presents • Great Patriotic Naps • 2027</div>
+<nav class="nav" aria-label="Main navigation"><a class="brand" href="../index.html">Idonatry.com</a><small>American moments&nbsp; • &nbsp;2027</small></nav>
+<main>
+<section class="card" aria-labelledby="title">
+<div class="kicker">Calendar availability</div>
+<h1 id="title">Coming Soon</h1>
+<p class="lead">The Great Patriotic Naps 2027 calendar will go on sale in the coming days. Submit your contact and order details below, and we’ll get back to you right away with availability and ordering information.</p>
+<p class="reply">We look forward to helping you prepare for the year ahead.</p>
+<form id="request-form">
+<div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+<div class="row">
+<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="quantity">Desired number of calendars</label><input id="quantity" name="quantity" type="number" min="1" step="1" value="1" required></div>
+</div>
+<div class="field"><label for="notes">Notes</label><textarea id="notes" name="notes" placeholder="Anything you’d like us to know"></textarea></div>
+<button class="button" type="submit">Send Calendar Request</button>
+<p class="note">Selecting “Send Calendar Request” opens a message addressed to our calendar team. Send the prepared email and we’ll get back to you right away.</p>
+<p class="status" id="status" role="status" aria-live="polite"></p>
+</form>
+</section>
+</main>
+<footer>© 2026 Idonatry.com • Great Patriotic Naps 2027 Calendar</footer>
+<script>
+document.getElementById("request-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+  const form = new FormData(event.currentTarget);
+  const subject = "Great Patriotic Naps 2027 Calendar Request";
+  const body = [
+    "Calendar request",
+    "",
+    "Name: " + form.get("name"),
+    "Email: " + form.get("email"),
+    "Desired number of calendars: " + form.get("quantity"),
+    "Notes: " + (form.get("notes") || "None")
+  ].join("\n");
+  document.getElementById("status").textContent = "Your email app should open with the request ready to send.";
+  window.location.href = "mailto:orders@idonatry.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
